@@ -21,4 +21,7 @@ sudo apt-get remove wps-office steam skype skype-bin crossover;
 
 sudo apt-get purge --auto-remove nodejs;
 
+#xampp
+#eclipse
+#dbeaver
 
