@@ -29,6 +29,12 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list &&
 sudo apt-get update && sudo apt-get install sublime-text;
 
+#node
+sudo apt-get purge nodejs;
+cd /usr/local;
+sudo wget --no-check-certificate https://nodejs.org/dist/v8.0.0/node-v8.0.0-linux-x64.tar.gz;
+sudo tar --strip-components 1 -xzf /opt/node-v8.0.0-linux-x64.tar.gz;
+
 #xampp
 #eclipse
 #dbeaver
