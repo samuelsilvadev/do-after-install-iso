@@ -33,7 +33,7 @@ sudo apt-get update && sudo apt-get install sublime-text;
 sudo apt-get purge nodejs;
 cd /usr/local;
 sudo wget --no-check-certificate https://nodejs.org/dist/v8.0.0/node-v8.0.0-linux-x64.tar.gz;
-sudo tar --strip-components 1 -xzf /opt/node-v8.0.0-linux-x64.tar.gz;
+sudo tar --strip-components 1 -xzf node-v8.0.0-linux-x64.tar.gz;
 
 #xampp
 #eclipse
